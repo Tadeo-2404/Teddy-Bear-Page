@@ -16,3 +16,133 @@ html {
 *, *:before *:after {
     box-sizing: inherit;
 }
+
+/*NAV SECTION*/
+.nav-bar {
+    background-color: var(--gris);
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-logo {
+    margin-right: 15rem;
+}
+.nav-logo img {
+    width: 600px;
+    height: 200px;
+}
+.links-container {
+    display: flex;
+    align-items: center;
+    column-gap: 10rem;
+}
+.link {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+.link a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+.link img {
+    width: 100px;
+    height: 100px;
+}
+
+/*HEADER*/
+.header {
+    height: 100rem;
+    background-image: url(/img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.header-title-container {
+    margin-top: 3rem;
+    position: absolute;
+    text-align: center;
+    left: 4rem;
+    font-size: 5rem;
+}
+.header-text-container {
+    position: absolute;
+    text-align: center;
+    left: 40rem;
+    bottom: 28rem;
+    font-size: 4rem;
+
+}
+
+.header-btn-container {
+    position: absolute;
+    text-align: center;
+    left: 48rem;
+    bottom: 10rem;
+    font-size: 4rem;
+}
+.header-btn-container button {
+    background-color: var(--rojo);
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 4rem;
+    width: 40rem;
+}
+span {
+    color: var(--amarrillo);
+}
+
+/*SERVICES*/
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: var(--amarrillo);
+}
+
+.service {
+    background-color: var(--gris);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10rem;
+    padding: 3rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.service-title {
+    font-size: 7rem;
+}
+.service-text {
+    font-size: 5rem;
+}
+
+.service.n2 {
+    justify-content: flex-start;
+}
+
+.n1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.n2 {
+    grid-column:  2/3;
+    grid-row: 2/3;
+}
+
+.n3 {
+    grid-column:  1/2;
+    grid-row: 3/4;
+}
+
+.service img {
+    width: 20rem;
+    height: 20rem;
+}
