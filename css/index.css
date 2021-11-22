@@ -1,0 +1,18 @@
+:root {
+    --gris: #D3D3D3;
+    --amarrillo: #E7AA4E;
+    --rojo: #D20000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+*, *:before *:after {
+    box-sizing: inherit;
+}
