@@ -178,6 +178,9 @@ html {
 .slider-review {
     font-size: 4rem;
 }
+.slider-review-p {
+    font-size: 3rem;
+}
 .slider-review span {
     border-bottom: red solid 2px;
     font-weight: 600;
