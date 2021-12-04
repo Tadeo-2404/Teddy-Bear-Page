@@ -1,110 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Teddy Bear Page</title>
 </head>
+
 <body>
 
     <nav class="nav-bar">
-        <div class="nav-container">   
-             <div class="nav-logo">
-              <img src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/Bj5icW7KYEWRhJGgubqkKQ/Image.png">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="/img/logo.png">
             </div>
             <div class="links-container">
                 <div class="link">
-                    <img src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/HwlKb6n6mUq7W5g0-PtVfA/Home%20Page%20icon.png">
-                    <a href="#">Home</a> 
+                    <img
+                        src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/HwlKb6n6mUq7W5g0-PtVfA/Home%20Page%20icon.png">
+                    <a href="index.html">Home</a>
                 </div>
                 <div class="link">
-                    <img src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/lbZqMp1AHEG1wR3UXokHXg/Team%20icon.png">
-                    <a href="#">About Us</a>
+                    <img
+                        src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/lbZqMp1AHEG1wR3UXokHXg/Team%20icon.png">
+                    <a href="about.html">About Us</a>
                 </div>
-                <div class="link">
-                    <img src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/-birOoTjbEGtsg9dHJERGQ/Shopping%20Cart%20icon.png">
-                   <a href="#">Our Products</a> 
+                <div class="link" id="icon">
+                    <img class="icono-carrito"
+                        src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/-birOoTjbEGtsg9dHJERGQ/Shopping%20Cart%20icon.png">
+                    <button class="btn-icon">See Cart</button>
+                </div>
+                <div class="link-menu" id="menu">
+                    <img class="icono-menu" src="./img/menus.png">
                 </div>
             </div>
-        
-        </div> 
+
+        </div>
     </nav>
 
+    <div class="menu-container activo">
+        <div class="menu-nav-bar">
+            <div class="menu-nav-container">
+                <div class="menu-links-container">
+                    <div class="menu-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="menu-link">
+                        <a href="about.html">About Us</a>
+                    </div>
+                    <div class="menu-link" id="icon">
+                        <button class="btn-icon menu">See Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="carrito" id="carrito">
+        <div class="carrito-title-container">
+            <div class="carrito-title">
+                <h2>Purchases Cart</h2>
+                <img class="cerrar-carrito" src="/img/boton-x.png">
+                <hr>
+            </div>
+            <div class="carrito-text">
+                <p>Image</p>
+                <p>Name</p>
+                <p>Price</p>
+                <p>Amount</p>
+            </div>
+        </div>
+        <div class="carrito-body">
+
+        </div>
+        <div class="vaciar-carrito">
+            <button class="vaciar-carrito-btn">Vaciar Carrito</button>
+        </div>
+    </div>
+
     <header class="header">
-        <div class="header-title-container">
-            <h1 class="header-title">THE BEST <span>TEDDYS</span> IN THE <br>MARKET</h1>  
+        <div class="header-container">
+            <div class="header-title-container">
+                <h1 class="header-title" id="typedtext"></h1>
+            </div>
+            <div class="header-text-container">
+                <p class="header-text">We got tons of animals just for you!!</p>
+            </div>
+            <div class="header-btn-container">
+                <button class="header-btn">Get Mine</button>
+            </div>
         </div>
-        <div class="header-text-container">
-            <p class="header-text">Get yours, and don't pay delivery</p> 
-        </div>
-        <div class="header-btn-container">
-           <button class="header-btn">Get Mine</button> 
-        </div>
+
     </header>
 
     <section class="services">
-        <div class="service n1">
-            <div class="service-info">
-                 <div class="service-title-container">
-                  <h2 class="service-title">On Time</h2>
+        <div class="services-title">
+            <h2>Check out some of our services</h2>
+        </div>
+        <div class="services-container">
+            <div class="service n1">
+                <div class="service-info">
+                    <div class="service-title-container">
+                        <h2 class="service-title">On Time</h2>
+                    </div>
+                    <div class="service-text-container">
+                        <p class="service-text">Our products are<br>always delivered<br>right on time</p>
+                    </div>
                 </div>
-                <div class="service-text-container">
-                 <p class="service-text">Our products are<br>always delivered<br>right on time</p>
-                </div> 
+                <div class="service-img-container">
+                    <img src="/img/clock.png" alt="clock-img" class="service-img">
+                </div>
             </div>
-          
-            <div class="service-img-container">
-                <img src="/img/clock.png" alt="clock-img" class="service-img">
+
+            <div class="service n2">
+                <div class="service-info">
+                    <div class="service-title-container">
+                        <h2 class="service-title">Pay with any Method</h2>
+                    </div>
+                    <div class="service-text-container">
+                        <p class="service-text">Feel free to pay with<br>any method<br>you want</p>
+                    </div>
+                </div>
+                <div class="service-img-container">
+                    <img src="/img/card.png" alt="card-img" class="service-img">
+                </div>
+            </div>
+
+            <div class="service n3">
+                <div class="service-info">
+                    <div class="service-title-container">
+                        <h2 class="service-title">Fast Delivery</h2>
+                    </div>
+                    <div class="service-text-container">
+                        <p class="service-text">We send our<br>products as son<br>as possible</p>
+                    </div>
+                </div>
+                <div class="service-img-container">
+                    <img src="/img/rocket.png" alt="rocket-img" class="service-img">
+                </div>
             </div>
         </div>
-
-        <div class="service n2">
-            <div class="service-info">
-               <div class="service-title-container">
-               <h2 class="service-title">Pay with any Method</h2>
-            </div>
-            <div class="service-text-container">
-                <p class="service-text">Feel free to pay with<br>any method<br>you want</p>
-            </div> 
-            </div>
-            <div class="service-img-container">
-                <img src="/img/card.png" alt="card-img" class="service-img">
-            </div>
-        </div>
-
-        <div class="service n3">
-            <div class="service-info">
-                <div class="service-title-container">
-               <h2 class="service-title">Fast Delivery</h2>
-            </div>
-            <div class="service-text-container">
-                <p class="service-text">We send our<br>products as son<br>as possible</p>
-            </div> 
-            </div>
-            <div class="service-img-container">
-                <img src="/img/rocket.png" alt="rocket-img" class="service-img">
-            </div>
         </div>
     </section>
 
+    <div class="products-container">
+        <div class="products-title">
+            <h2>Our products</h2>
+        </div>
+        <section class="products">
+            <div class="product">
+                <div class="product-img-container">
+                    <img class="product-img" src="/img/product/img1/img1.jpg">
+                </div>
+                <div class="product-name-container">
+                    <h3 class="product-name">Teddy Bear </h3>
+                </div>
+                <div class="product-price-container">
+                    <p class="product-price"> <span>$500</span>&emsp14;$60</p>
+                </div>
+                <div class="product-btn-container">
+                    <a href="buy.html"><button class="product-btn">BUY</button></a>
+                    <button class="product-btn cart">ADD </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-img-container">
+                    <img class="product-img" src="/img/product/img2/img2.jpg">
+                </div>
+                <div class="product-name-container">
+                    <h3 class="product-name">Christmas Teddy</h3>
+                </div>
+                <div class="product-price-container">
+                    <p class="product-price"><span>$500</span> &emsp14; $60</p>
+                </div>
+                <div class="product-btn-container">
+                    <a href="buy2.html"><button class="product-btn">BUY</button></a>
+                    <button class="product-btn cart">ADD</button>
+
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-img-container">
+                    <img class="product-img" src="/img/product/img3/img3.jpg">
+                </div>
+                <div class="product-name-container">
+                    <h3 class="product-name">Unicorn</h3>
+                </div>
+                <div class="product-price-container">
+                    <p class="product-price"><span>$500</span> &emsp14; $60</p>
+                </div>
+                <div class="product-btn-container">
+                    <a href="buy3.html"><button class="product-btn">BUY</button></a>
+                    <button class="product-btn cart">ADD </button>
+                </div>
+            </div>
+
+            <div class="product p1">
+                <div class="product-img-container">
+                    <img class="product-img" src="/img/product/img4/img4.jpg">
+                </div>
+                <div class="product-name-container">
+                    <h3 class="product-name">Rabbit</h3>
+                </div>
+                <div class="product-price-container">
+                    <p class="product-price"><span>$500</span> &emsp14; $60</p>
+                </div>
+                <div class="product-btn-container">
+                    <a href="buy4.html"><button class="product-btn">BUY</button></a>
+                    <button class="product-btn cart">ADD </button>
+                </div>
+            </div>
+
+            <div class="product p1">
+                <div class="product-img-container">
+                    <img class="product-img" src="/img/product/img5/img5.jpg">
+                </div>
+                <div class="product-name-container">
+                    <h3 class="product-name">Piggy</h3>
+                </div>
+                <div class="product-price-container">
+                    <p class="product-price"><span>$500</span> &emsp14; $60</p>
+                </div>
+                <div class="product-btn-container">
+                    <a href="buy5.html"><button class="product-btn">BUY</button></a>
+                    <button class="product-btn cart">ADD </button>
+                </div>
+            </div>
+
+            <div class="product p1">
+                <div class="product-img-container">
+                    <img class="product-img" src="/img/product/img6.jpg">
+                </div>
+                <div class="product-name-container">
+                    <h3 class="product-name">Pikachu</h3>
+                </div>
+                <div class="product-price-container">
+                    <p class="product-price"><span>$500</span> &emsp14; $60</p>
+                </div>
+                <div class="product-btn-container">
+                    <button class="product-btn">BUY</button>
+                    <button class="product-btn cart">ADD </button>
+                </div>
+            </div>
+
+            <div class="product p1">
+                <div class="product-img-container">
+                    <img class="product-img" src="/img/product/img7/img7.jpg">
+                </div>
+                <div class="product-name-container">
+                    <h3 class="product-name">Turtle</h3>
+                </div>
+                <div class="product-price-container">
+                    <p class="product-price"><span>$500 </span>&emsp14; $60</p>
+                </div>
+                <div class="product-btn-container">
+                    <a href="buy7.html"><button class="product-btn">BUY</button></a>
+                    <button class="product-btn cart">ADD </button>
+                </div>
+            </div>
+
+            <div class="product p1">
+                <div class="product-img-container">
+                    <img class="product-img" src="/img/product/img8/img8.jpg">
+                </div>
+                <div class="product-name-container">
+                    <h3 class="product-name">Mouse</h3>
+                </div>
+                <div class="product-price-container">
+                    <p class="product-price"><span>$500</span> &emsp14; $60</p>
+                </div>
+                <div class="product-btn-container">
+                    <a href="buy8.html"><button class="product-btn">BUY</button></a>
+                    <button class="product-btn cart">ADD </button>
+                </div>
+            </div>
+
+            <div class="product p1">
+                <div class="product-img-container">
+                    <img class="product-img" src="/img/product/img9/img9.jpg">
+                </div>
+                <div class="product-name-container">
+                    <h3 class="product-name">Little Monkey</h3>
+                </div>
+                <div class="product-price-container">
+                    <p class="product-price"><span>$500</span> &emsp14; $60</p>
+                </div>
+                <div class="product-btn-container">
+                    <a href="buy9.html"><button class="product-btn">BUY</button></a>
+                    <button class="product-btn cart">ADD </button>
+                </div>
+            </div>
+
+            <button class="interactive-btn">See More</button>
+        </section>
+    </div>
+
+
+    <div class="terminos">
+        <div class="terminos-texto">
+            <h4>Terms & Conditions</h4>
+            <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice
+                and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and
+                compliant to the Company’s terms and conditions.</p>
+        </div>
+        <button id="terms-btn"> Accept</button>
+    </div>
+
     <footer class="footer">
-        <div class="social">
-            <img src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/Ek1zbyNkDUeQ63lz8QzNnw/Facebook%20icon.png">
+        <div class="footer-main">
+            <div class="links">
+                <ul>
+                    <li>Our Work</li>
+                    <li>About Us</li>
+                    <li>Our Policy</li>
+                </ul>
+                <ul>
+                    <li>Blog</li>
+                    <li>Map</li>
+                    <li>Terms & Condiitons</li>
+                </ul>
+                <ul>
+                    <li>Our Company</li>
+                    <li>Work for US</li>
+                    <li>Find Us</li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <div class="social">
+                    <img src="/img/facebook.png">
+                </div>
+                <div class="social">
+                    <img src="/img/linkedin.png">
+                </div>
+                <div class="social">
+                    <img src="/img/github.png">
+                </div>
+            </div>
         </div>
-        <div class="social">
-            <img src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/Lb5MIDKQTkachsi1ZraObA/Instagram%20icon.png">
+        <div class="info-footer">
+            <p>Tadeo Alvarez &copy; <a
+                    href="https://media.flaticon.com/license/license.pdf?_gl=1*hc5bpg*test_ga*MzY1MTg0NTA2LjE2Mzg0MTQ5MDQ.*test_ga_523JXC6VL7*MTYzODQxNDkwMy4xLjEuMTYzODQxNTI2MC42MA..*fp_ga*MzY1MTg0NTA2LjE2Mzg0MTQ5MDQ.*fp_ga_1ZY8468CQB*MTYzODQxNDkwMy4xLjEuMTYzODQxNTI2MC42MA..*_ga*MzY1MTg0NTA2LjE2Mzg0MTQ5MDQ.*_ga_3Q8LH3P0VP*MTYzODQxNDkwMy4xLjEuMTYzODQxNTI2MS4w">ALL
+                    RIGHTS RESERVED</a> </p>
         </div>
-        <div class="social">
-            <img src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/1babxdac1UWXLk-_TpXDXw/Whatsapp%20icon.png">
-        </div>
-        <div class="social">
-            <img src="https://lun-us.icons8.com/a/Iqk_lTmHKEu85Lce2NY_bg/3t5AIKP0-0W1vvQaDW2Xyg/Github%20icon.png">
-        </div>
+
+
     </footer>
 
-    <script src="/js/index.js"></script>
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
