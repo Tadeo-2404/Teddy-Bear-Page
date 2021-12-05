@@ -394,7 +394,9 @@ html {
     /*MODA WINDOW*/
     .pay {
         width: 35rem;
+        left: 5rem;
     }
+
     .form-pay-title {
         font-size: 3rem;
     }
