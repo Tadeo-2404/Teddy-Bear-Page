@@ -17,7 +17,7 @@ function closeModal() {
 if(media.matches) {
   modalBtn.addEventListener('click', showModal);
   function showModal() {
-    modal.style.bottom = '8rem'
+    modal.style.bottom = '5rem'
     modal.style.left = '3rem'
   }
 } else {
