@@ -31,17 +31,17 @@ if(media.matches) {
 
 yellow.addEventListener('click', changeColorYellow);
 function changeColorYellow() {
-  img.src="/img/product/img1Yellow.png"
+  img.src="/img/product/img1/img1Yellow.png"
 }
 
 purple.addEventListener('click', changeColorPurple);
 function changeColorPurple() {
-  img.src="/img/product/img1Purple.png"
+  img.src="/img/product/img1/img1Purple.png"
 }
 
 red.addEventListener('click', changeColor);
 function changeColor() {
-  img.src="/img/product/img1Rojo.png"
+  img.src="/img/product/img1/img1Rojo.png"
 }
 
     //MENU 
