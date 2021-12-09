@@ -508,6 +508,14 @@ html {
         padding: 0;
     }
     /*MODA WINDOW*/
+    .parrafo {
+        font-size: 1.5rem;
+    }
+    
+    .parrafoSend {
+        font-size: 1.5rem;
+    }
+    
     .pay {
         width: 100%;
         left: 0;
@@ -519,12 +527,13 @@ html {
 
     .form-pay input {
         font-size: 1.5rem;
-        margin-left: 2rem;
+        margin-left: 0;
+        width: 100%;
     }
     .btn-pay {
         margin-top: 3rem;
         width: 100%;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .method-container img {
         width: 6rem;

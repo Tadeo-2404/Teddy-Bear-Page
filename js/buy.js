@@ -182,7 +182,7 @@ if (media.matches) {
 
   function showModal() {
     modal.style.bottom = '1rem'
-    modal.style.left = '3rem'
+    modal.style.left = '0rem'
   }
 } else {
   modalBtn.addEventListener('click', showModal);
