@@ -32,7 +32,6 @@ modalBtn.addEventListener('click', showModal);
 /*-----------------PRODUCT----------------------------- */
 yellow.addEventListener('click', changeColorYellow);
 purple.addEventListener('click', changeColorPurple);
-red.addEventListener('click', changeColor);
 /*-----------------MODAL-FORM----------------------------- */
 email.addEventListener('blur', validarForm);
 number.addEventListener('blur', validarForm)
@@ -176,9 +175,8 @@ if(media.matches) {
     modal.style.top = '1rem'
     modal.style.left = '3rem'
   } 
-} else {
+} 
   modalBtn.addEventListener('click', showModal);
   function showModal() {
     modal.style.bottom = '15rem'
   }
-}

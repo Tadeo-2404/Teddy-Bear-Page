@@ -183,9 +183,9 @@ if(media.matches) {
     modal.style.top = '1rem'
     modal.style.left = '3rem'
   } 
-} else {
+} 
+
   modalBtn.addEventListener('click', showModal);
   function showModal() {
     modal.style.bottom = '15rem'
   }
-}
