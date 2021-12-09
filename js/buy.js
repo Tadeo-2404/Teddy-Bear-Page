@@ -180,7 +180,7 @@ menuIcono.addEventListener('click', () => {
 if(media.matches) {
   modalBtn.addEventListener('click', showModal);
   function showModal() {
-    modal.style.top = '10rem'
+    modal.classList.add('top')
     modal.style.left = '3rem'
   } 
 } else {

@@ -521,6 +521,9 @@ html {
         width: 100%;
         left: 0;
     }
+    .top {
+        top: 10rem;
+    }
 
     .form-pay-title {
         font-size: 3rem;
