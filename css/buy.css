@@ -522,7 +522,7 @@ html {
         left: 0;
     }
     .top {
-        top: 100rem;
+        bottom: 0;
     }
 
     .form-pay-title {
