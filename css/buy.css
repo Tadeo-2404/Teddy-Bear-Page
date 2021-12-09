@@ -509,8 +509,8 @@ html {
     }
     /*MODA WINDOW*/
     .pay {
-        width: 35rem;
-        left: 5rem;
+        width: 100%;
+        left: 0;
     }
 
     .form-pay-title {
