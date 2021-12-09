@@ -182,12 +182,11 @@ if (media.matches) {
 
   function showModal() {
     modal.style.bottom = '5rem'
-    modal.style.left = '10rem'
   }
 } else {
   modalBtn.addEventListener('click', showModal);
 
   function showModal() {
-    modal.style.bottom = '15rem'
+    modal.style.bottom = '1px'
   }
 }
