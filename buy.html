@@ -108,15 +108,15 @@
                 <legend class="form-pay-title">One Step More</legend>
                 <div class="name-container">
                     <label>Name</label>
-                    <input type="text" placeholder="Your Name">
+                    <input id="name" type="text" placeholder="Your Name">
                 </div>
                 <div class="email-container">
                     <label>Email</label>
-                    <input type="email" placeholder="Your Email">
+                    <input id="email" type="email" placeholder="Your Email">
                 </div>
                 <div class="number-container">
                     <label>Number</label>
-                    <input type="text" placeholder="Your Number">
+                    <input id="number" type="tel" placeholder="Your Number">
                 </div>
                 <div class="method-container">
                     <label>Pay Method</label>
@@ -125,7 +125,8 @@
                         <img src="/img/paypal.png">
                     </div>
                 </div>
-                <button class="btn-pay">Send</button>
+                <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                <button type="submit" class="btn-pay">Send</button>
 
 
             </form>
