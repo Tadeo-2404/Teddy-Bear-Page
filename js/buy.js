@@ -177,15 +177,14 @@ menuIcono.addEventListener('click', () => {
 })
 
 
-if (media.matches) {
+if(media.matches) {
   modalBtn.addEventListener('click', showModal);
-
   function showModal() {
-    modal.style.bottom = '1px';
-  }
+    modal.style.bottom = '1rem'
+    modal.style.left = '3rem'
+  } 
 } else {
   modalBtn.addEventListener('click', showModal);
-
   function showModal() {
     modal.style.bottom = '15rem'
   }
