@@ -517,7 +517,8 @@ html {
     }
     
     .pay {
-        width: 90%;
+        bottom: 1rem;
+        width: 100%;
         left: 0;
     }
 
