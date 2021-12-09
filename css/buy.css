@@ -520,9 +520,8 @@ html {
         bottom: -1000rem;
         width: 100%;
         left: 0;
-    }
-    .top {
-        bottom: 0;
+        top: 15rem;
+        height: auto;
     }
 
     .form-pay-title {
