@@ -181,8 +181,8 @@ if (media.matches) {
   modalBtn.addEventListener('click', showModal);
 
   function showModal() {
-    modal.style.bottom = '1rem'
-    modal.style.left = '0rem'
+    modal.style.bottom = '5rem'
+    modal.style.left = '10rem'
   }
 } else {
   modalBtn.addEventListener('click', showModal);

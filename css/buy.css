@@ -232,7 +232,7 @@ html {
     background-color: rgb(175, 175, 175); 
     width: 60rem;
     position: fixed;
-    bottom: -10;
+    bottom: -10rem;
     left: 65rem;
     transition: .8s ease-out;
 }
